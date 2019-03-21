@@ -24,7 +24,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/AppTheme">
-        <activity android:name=".DataBindViewModelActivity">
+        <activity android:name=".RecyclerViewTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,7 +53,7 @@
             android:name="design_height_in_dp"
             android:value="640" />
 
-        <activity android:name=".RecyclerViewTestActivity" />
+        <activity android:name=".DataBindViewModelActivity" />
         <activity android:name=".DataBindTestActivity"></activity>
     </application>
 
