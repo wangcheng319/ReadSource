@@ -30,7 +30,7 @@ public class App extends Application {
         }
         LeakCanary.install(this);
 
-        Log.e("wangc","onCreate1");
+        Log.e("wangc","onCreate1 branch");
     }
 
     private void initARouter() {
