@@ -21,7 +21,7 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         
-        initARouter();
+//        initARouter();
 
         if (LeakCanary.isInAnalyzerProcess(this)) {
             // This process is dedicated to LeakCanary for heap analysis.
@@ -30,7 +30,7 @@ public class App extends Application {
         }
         LeakCanary.install(this);
 
-        Log.e("wangc","onCreate");
+        Log.e("wangc","onCreate1");
     }
 
     private void initARouter() {
